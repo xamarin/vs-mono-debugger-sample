@@ -3,6 +3,9 @@
 This repository contains a source sample that consumes the Mono debugger in a custom 
 Visual Studio project flavor (that is, new kind of project you're creating).
 
+You can use this for scenarios where you embed the Mono runtime into your application
+(either locally in a Windows application) or on a remote mono application.
+
 The project is set up and configured to built and run from Visual Studio 2015, 
 ready for deploying and testing into the Visual Studio 2015 Experimental instance.
 
