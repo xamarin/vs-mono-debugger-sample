@@ -93,12 +93,10 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory, Version=5.0.0.0, Culture=neutral, PublicKeyToken=d4bfe873e7598c49, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mono.Debugging.VisualStudio.1.0.41-pre\lib\net45\ICSharpCode.NRefactory.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\lib\net45\ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory.CSharp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=d4bfe873e7598c49, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mono.Debugging.VisualStudio.1.0.41-pre\lib\net45\ICSharpCode.NRefactory.CSharp.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\lib\net45\ICSharpCode.NRefactory.CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Build.Framework" />
     <Reference Include="Microsoft.CSharp" />
@@ -180,29 +178,29 @@
       <HintPath>..\packages\Microsoft.VisualStudio.Validation.14.1.111\lib\net45\Microsoft.VisualStudio.Validation.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Mono.Cecil, Version=0.9.6.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mono.Debugging.VisualStudio.1.0.41-pre\lib\net45\Mono.Cecil.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\lib\net45\Mono.Cecil.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Cecil.Mdb, Version=0.9.6.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mono.Debugging.VisualStudio.1.0.41-pre\lib\net45\Mono.Cecil.Mdb.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Mono.Cecil.Mdb, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\lib\net45\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\lib\net45\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\lib\net45\Mono.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Debugger.Soft, Version=0.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mono.Debugging.VisualStudio.1.0.41-pre\lib\net45\Mono.Debugger.Soft.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\lib\net45\Mono.Debugger.Soft.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Debugging, Version=0.0.0.0, Culture=neutral, PublicKeyToken=5e9ce85b0923c84f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mono.Debugging.VisualStudio.1.0.41-pre\lib\net45\Mono.Debugging.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\lib\net45\Mono.Debugging.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Debugging.Soft, Version=0.0.0.0, Culture=neutral, PublicKeyToken=5e9ce85b0923c84f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mono.Debugging.VisualStudio.1.0.41-pre\lib\net45\Mono.Debugging.Soft.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\lib\net45\Mono.Debugging.Soft.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Debugging.VisualStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec9700d15469a0df, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mono.Debugging.VisualStudio.1.0.41-pre\lib\net45\Mono.Debugging.VisualStudio.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Mono.Debugging.VisualStudio, Version=4.7.0.0, Culture=neutral, PublicKeyToken=ec9700d15469a0df, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\lib\net45\Mono.Debugging.VisualStudio.dll</HintPath>
     </Reference>
     <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <EmbedInteropTypes>False</EmbedInteropTypes>
@@ -242,14 +240,14 @@
     <Error Condition="!Exists('..\packages\Microsoft.VSSDK.BuildTools.14.3.25407\build\Microsoft.VSSDK.BuildTools.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.VSSDK.BuildTools.14.3.25407\build\Microsoft.VSSDK.BuildTools.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.VSSDK.BuildTools.14.3.25407\build\Microsoft.VSSDK.BuildTools.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.VSSDK.BuildTools.14.3.25407\build\Microsoft.VSSDK.BuildTools.targets'))" />
     <Error Condition="!Exists('..\packages\MSBuilder.VsixInstaller.0.2.11\build\MSBuilder.VsixInstaller.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuilder.VsixInstaller.0.2.11\build\MSBuilder.VsixInstaller.targets'))" />
-    <Error Condition="!Exists('..\packages\Mono.Debugging.VisualStudio.1.0.41-pre\build\Mono.Debugging.VisualStudio.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Mono.Debugging.VisualStudio.1.0.41-pre\build\Mono.Debugging.VisualStudio.targets'))" />
     <Error Condition="!Exists('..\packages\MSBuilder.VsixDependency.0.2.7\build\MSBuilder.VsixDependency.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuilder.VsixDependency.0.2.7\build\MSBuilder.VsixDependency.targets'))" />
     <Error Condition="!Exists('..\packages\MSBuilder.0.1.1\build\MSBuilder.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuilder.0.1.1\build\MSBuilder.props'))" />
     <Error Condition="!Exists('..\packages\MSBuilder.CodeTaskAssembly.0.2.5\build\MSBuilder.CodeTaskAssembly.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuilder.CodeTaskAssembly.0.2.5\build\MSBuilder.CodeTaskAssembly.props'))" />
     <Error Condition="!Exists('..\packages\MSBuilder.IsXBuild.0.2.1\build\MSBuilder.IsXBuild.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuilder.IsXBuild.0.2.1\build\MSBuilder.IsXBuild.props'))" />
+    <Error Condition="!Exists('..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\build\Mono.Debugging.VisualStudio.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\build\Mono.Debugging.VisualStudio.targets'))" />
   </Target>
   <Import Project="..\packages\Microsoft.VSSDK.BuildTools.14.3.25407\build\Microsoft.VSSDK.BuildTools.targets" Condition="Exists('..\packages\Microsoft.VSSDK.BuildTools.14.3.25407\build\Microsoft.VSSDK.BuildTools.targets')" />
   <Import Project="..\packages\MSBuilder.VsixInstaller.0.2.11\build\MSBuilder.VsixInstaller.targets" Condition="Exists('..\packages\MSBuilder.VsixInstaller.0.2.11\build\MSBuilder.VsixInstaller.targets')" />
-  <Import Project="..\packages\Mono.Debugging.VisualStudio.1.0.41-pre\build\Mono.Debugging.VisualStudio.targets" Condition="Exists('..\packages\Mono.Debugging.VisualStudio.1.0.41-pre\build\Mono.Debugging.VisualStudio.targets')" />
   <Import Project="..\packages\MSBuilder.VsixDependency.0.2.7\build\MSBuilder.VsixDependency.targets" Condition="Exists('..\packages\MSBuilder.VsixDependency.0.2.7\build\MSBuilder.VsixDependency.targets')" />
+  <Import Project="..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\build\Mono.Debugging.VisualStudio.targets" Condition="Exists('..\packages\Mono.Debugging.VisualStudio.4.7.21-pre\build\Mono.Debugging.VisualStudio.targets')" />
 </Project>
