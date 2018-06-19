@@ -24,7 +24,7 @@ namespace Mono.Debugger.Sample
             var args = ((Debugging.VisualStudio.StartInfo)startInfo).StartArgs as SoftDebuggerListenArgs;
 
             process = new System.Diagnostics.Process();
-            process.StartInfo = new System.Diagnostics.ProcessStartInfo(Path.Combine(monoDirectory, "mono.exe"), string.Format("--debug --debugger-agent=transport=dt_socket,address=127.0.0.1:{0} {1}", args.DebugPort, exeName));
+            process.StartInfo = new System.Diagnostics.ProcessStartInfo(Path.Combine(monoDirectory, "mono.exe"), string.Format("--debug=mdb-optimizations --debugger-agent=transport=dt_socket,address=127.0.0.1:{0} {1}", args.DebugPort, exeName));
             process.StartInfo.WorkingDirectory = monoDirectory;
             process.StartInfo.UseShellExecute = true;
             process.Start();
